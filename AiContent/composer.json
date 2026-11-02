@@ -1,0 +1,16 @@
+{
+    "name": "taimoor/module-ai-content",
+    "description": "Generate product description and SEO meta tags with an AI (LLM) API",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": { "Taimoor\\AiContent\\": "" }
+    }
+}

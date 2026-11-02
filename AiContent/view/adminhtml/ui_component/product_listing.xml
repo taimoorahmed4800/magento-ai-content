@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction">
+            <action name="taimoor_ai_generate">
+                <settings>
+                    <confirm>
+                        <message translate="true">Generate AI content for the selected products? (maximum 10 per run)</message>
+                        <title translate="true">Generate AI Content</title>
+                    </confirm>
+                    <url path="taimoor_aicontent/product/massGenerate"/>
+                    <type>taimoor_ai_generate</type>
+                    <label translate="true">Generate AI Content</label>
+                </settings>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>

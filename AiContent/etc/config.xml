@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <taimoor_aicontent>
+            <general>
+                <enabled>0</enabled>
+                <base_url>https://generativelanguage.googleapis.com/v1beta/openai</base_url>
+                <model>gemini-3.5-flash-lite</model>
+                <language>English</language>
+                <tone>Professional, clear and friendly</tone>
+                <overwrite>0</overwrite>
+            </general>
+        </taimoor_aicontent>
+    </default>
+</config>
